@@ -1,5 +1,7 @@
 from __future__ import print_function
-import os,time,cv2, sys, math
+import sys
+sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
+import os,time,cv2, math
 import tensorflow as tf
 import tensorflow.contrib.slim as slim
 import numpy as np
